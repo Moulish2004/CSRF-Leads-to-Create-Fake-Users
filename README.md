@@ -1,7 +1,7 @@
 # CSRF Vulnerability: Creating Fake Users in Client Management System
 
 ## Introduction
-Cross-Site Request Forgery (CSRF) is an attack where an authenticated user is tricked into submitting a malicious request to a web application. This can lead to unauthorized actions being performed on behalf of the user. In this report, we demonstrate how CSRF can be used to create fake users in a **Client Management System** and suggest mitigation strategies.
+Cross-Site Request Forgery (CSRF) is an attack where an authenticated user is tricked into submitting a malicious request to a web application. This can lead to unauthorized actions being performed on behalf of the user . In this report, we demonstrate how CSRF can be used to create fake users in a **Client Management System** and suggest mitigation strategies.
 
 ## Environment Setup
 - Locally hosted **Client Management System** using **MySQL** and **PHP**.
@@ -92,9 +92,9 @@ To prevent CSRF attacks, implement the following measures:
 3. **Referer and Origin Header Validation**
    - Validate the **Referer** and **Origin** headers before processing requests .
 4. **User Authentication Checks**
-   - Require **CAPTCHAs** for critical actions to prevent automated attacks.
+   - Require **CAPTCHAs** for critical actions to prevent automated attacks .
 5. **Restrict HTTP Methods**
-   - Use `POST` for sensitive actions and **avoid processing GET requests** with side effects.
+   - Use `POST` for sensitive actions and **avoid processing GET requests** with side effects .
 
 ## Conclusion
 This report demonstrates how CSRF vulnerabilities can be exploited to create unauthorized accounts in a **Client Management System**. Implementing the suggested mitigation strategies will help secure the application against such attacks.
