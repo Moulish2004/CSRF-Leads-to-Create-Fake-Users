@@ -90,7 +90,7 @@ To prevent CSRF attacks, implement the following measures:
 2. **SameSite Cookies**
    - Set session cookies with `SameSite=Strict` or `SameSite=Lax` attributes.
 3. **Referer and Origin Header Validation**
-   - Validate the **Referer** and **Origin** headers before processing requests.
+   - Validate the **Referer** and **Origin** headers before processing requests .
 4. **User Authentication Checks**
    - Require **CAPTCHAs** for critical actions to prevent automated attacks.
 5. **Restrict HTTP Methods**
