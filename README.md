@@ -23,7 +23,7 @@ Using provided credentials, log in to the Client Management System.
 
 ### 3. Capture the Client Adding Request
 1. Navigate to the **Save** button.
-2. Set up **Burp Suite** to intercept requests.
+2. Set up **Burp Suite** to intercept requests
 3. Click **Save** and capture the HTTP request before it reaches the server
 4. Send the captured request to the **Repeater** tab without the session cookie for analysis
 
@@ -63,7 +63,7 @@ Below is the **HTML PoC** for CSRF attack:
 ```
 
 ## Creating Fake Users
-- Modify existing details to create **fake users**.
+- Modify existing details to create **fake users**
 
 ![Adding fake user 1](https://github.com/user-attachments/assets/4b45fb41-3c40-4a6b-9dcf-525fc02eceaa)
 ![Adding fake user 2](https://github.com/user-attachments/assets/feb6cc10-f6b7-4276-ba5f-41e026f3fba2)
