@@ -30,7 +30,7 @@ Using provided credentials, log in to the Client Management System.
 ![Capturing the request in Burp](https://github.com/user-attachments/assets/2c3978f6-8518-4ca1-89c3-cc7a22a7cebe)
 ![Send to repeater](https://github.com/user-attachments/assets/be30ff6c-4dc5-4f18-af61-11bd81c526d1)
 
-## CSRF Code for fake User1
+## CSRF Code for fake Users
 Below is the **HTML PoC** for CSRF attack:
 
 ```html
